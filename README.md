@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This project automates the creation of YouTube Shorts using locally hosted AI tools. Simply prompt a topic, and the system will generate a script with Ollama 3.2, convert it to speech with HeadTTS, and automatically produce a video with FFmpeg—complete with background music, subtitles, and smooth syncing. Everything runs locally for full control, privacy, and zero cloud costs. Created in February 2025. 
+
 
 ## Getting Started
 
