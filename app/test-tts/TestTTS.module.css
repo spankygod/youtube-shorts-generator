@@ -1,0 +1,156 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.title {
+  color: #61dafb;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.card {
+  background-color: #23272f;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  background-color: #2d333b;
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #ccc;
+  font-weight: bold;
+  flex: 1;
+}
+
+.tab.active {
+  background-color: #61dafb;
+  color: #111;
+}
+
+.tabContent {
+  padding: 20px;
+  background-color: #2d333b;
+  border-radius: 0 0 4px 4px;
+}
+
+.tabPanel {
+  display: block;
+}
+
+.formRow {
+  margin-bottom: 15px;
+}
+
+.fullWidth {
+  width: 100%;
+  background-color: #2d333b;
+  border: 1px solid #444;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.primaryButton, .secondaryButton, .setupButton {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.primaryButton {
+  background-color: #61dafb;
+  color: #111;
+}
+
+.primaryButton:hover {
+  background-color: #4fa8c9;
+}
+
+.secondaryButton {
+  background-color: #444;
+  color: white;
+}
+
+.secondaryButton:hover {
+  background-color: #555;
+}
+
+.setupButton {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.setupButton:hover {
+  background-color: #7d3c98;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: rgba(35, 134, 54, 0.3);
+  border: 1px solid #238636;
+}
+
+.error {
+  background-color: rgba(248, 81, 73, 0.3);
+  border: 1px solid #f85149;
+}
+
+.resultContent {
+  margin-bottom: 15px;
+}
+
+.audioPlayer {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #2d333b;
+  border-radius: 20px;
+}
+
+.debugContainer {
+  margin-top: 20px;
+}
+
+.debugInfo {
+  font-family: monospace;
+  white-space: pre-wrap;
+  max-height: 200px;
+  overflow: auto;
+  padding: 10px;
+  background-color: #2d333b;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
